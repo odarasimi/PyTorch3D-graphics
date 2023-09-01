@@ -1,6 +1,6 @@
 ### Todo
 - [ ] Render
-  - [ ] Basic mesh rendering
+  - [x] Basic mesh rendering
   - [ ] Include volume renderer based on mesh
 - [ ] cuda_cpp
   - [ ] Triinear interpolation
