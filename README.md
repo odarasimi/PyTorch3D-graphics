@@ -1,7 +1,13 @@
 ### Todo
 - [ ] Render
+  - [ ] Basic mesh rendering
   - [ ] Include volume renderer based on mesh
 - [ ] cuda_cpp
-  - [ ] Implement Kernel
-  - [ ] Opportunities to use shared mem?
-  - [ ] Opportunities for further serial optimisation?
+  - [ ] Triinear interpolation
+    - [ ] Implement Kernel
+    - [ ] Opportunities to use shared mem?
+    - [ ] Opportunities for further serial optimisation?
+  - [ ] Bicubic interpolation
+    - [ ] Implement Kernel
+    - [ ] Opportunities to use shared mem?
+    - [ ] Opportunities for further serial optimisation?   
