@@ -22,7 +22,7 @@ __device__ float doubleValue(float x)
 
 //-----------------------------------CALLED ON CPU, SPMD EXECUTION ON GPU-----------------------------------------------------------------
 template <typename float>
-__global__ void trilinear_fw_kernel(
+__global__ void trilinear_kernel(
     //difference with Accessor is that a Packed Accessor copies size and stride data inside of its structure instead of pointing to it
     const torch::PackedTensorAccessor32<float, 3, torch::RestrictPtrTraits> vertex_features,
     const torch::PackedTensorAccessor32<float, 2, torch::RestrictPtrTraits> points,
