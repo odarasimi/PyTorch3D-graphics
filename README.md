@@ -4,7 +4,7 @@
   - [ ] Include volume renderer based on mesh
 - [ ] cuda_cpp
   - [ ] Trilinear interpolation
-    - [ ] Implement Kernel
+    - [x] Implement Kernel
     - [ ] Use shared mem?
     - [ ] Further serial optimisation?
   - [ ] Bicubic interpolation
