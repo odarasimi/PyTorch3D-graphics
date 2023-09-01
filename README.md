@@ -5,9 +5,9 @@
 - [ ] cuda_cpp
   - [ ] Triinear interpolation
     - [ ] Implement Kernel
-    - [ ] Opportunities to use shared mem?
-    - [ ] Opportunities for further serial optimisation?
+    - [ ] Use shared mem?
+    - [ ] Further serial optimisation?
   - [ ] Bicubic interpolation
     - [ ] Implement Kernel
-    - [ ] Opportunities to use shared mem?
-    - [ ] Opportunities for further serial optimisation?   
+    - [ ] Use shared mem?
+    - [ ] Further serial optimisation?   
