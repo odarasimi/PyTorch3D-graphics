@@ -1,11 +1,13 @@
 #include <torch/extension.h>
 #include <ATen/ATen.h>
 
-torch::Tensor trilinear_interpolation(torch::Tensor features, torch::Tensor points){
-    CHECK_INPUT(features);
-    CHECK_INPUT(points);
+torch::Tensor trilinear_kernel(
+    const torch::Tensor features,
+    const torch::Tensor cube_points
+)
 
-    return cuda_trilinear(features, points)
+torch::Tensor trilinear_interpolation(const torch::Tensor features, const torch::Tensor cube_points){
+    return trilinear_kernel(features, cube_points)
 }
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
